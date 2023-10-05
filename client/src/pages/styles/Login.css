@@ -1,0 +1,73 @@
+.Login {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;background: rgb(234,53,70);
+    background: linear-gradient(49deg, rgba(234,53,70,1) 0%, rgba(245,154,163,1) 5%, rgba(250,201,205,1) 9%, rgba(252,224,226,1) 14%, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 80%, rgba(224,244,247,1) 85%, rgba(161,222,230,1) 91%, rgba(67,188,205,1) 98%);
+}
+
+.loginMain {
+    width: 100%;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm {
+    font-family: "Poppins",'Baloo Bhai 2';
+    max-width: 420px;
+    min-width: 385px;
+    display: flex;
+    flex-direction: column;
+    padding:50px 40px ;
+    padding-top: 40px;
+    border-radius: 12px;
+    box-shadow: 12px 14px 26px #a8a8a8;
+    background-color: white;
+}
+
+.loginForm h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.loginForm input {
+    padding: 10px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.loginForm input:focus{
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0080ff;
+}
+
+.loginForm .newUser{
+    font-size: 13px;
+}
+
+.loginForm label{
+    font-weight: 600;
+}
+.loginForm .submitBTN {
+
+    background-color: #00be4f;
+    background: #00be4f;
+    background: linear-gradient(46deg, #00be4f, #2dc76d 98%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding:15px 10px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
